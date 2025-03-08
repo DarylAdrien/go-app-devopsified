@@ -1,8 +1,0 @@
-linters:
-  disable:
-    - gofmt
-    - gocyclo
-    - deadcode
-    - errcheck
-run:
-  timeout: 5m
