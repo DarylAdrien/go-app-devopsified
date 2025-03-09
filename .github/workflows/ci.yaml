@@ -92,7 +92,7 @@ jobs:
     - name: Commit and push changes
       run: |
         git config --global user.email "daryladrien@gmail.com"
-        git config --global user.name "Daryl Adrien"
+        git config --global user.name "DarylAdrien"
         git add helm/go-app-chart/values.yaml
         git commit -m "Update tag to ${{ github.run_number }} in Helm chart"
         git push
